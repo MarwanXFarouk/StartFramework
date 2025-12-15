@@ -27,7 +27,7 @@ body {
 .home,
 .about {
   background-color: var(--main-color);
-  height: 640px;
+  min-height: calc(100vh - 80px);
   display: flex;
   justify-content: center;
   align-items: center;
