@@ -56,6 +56,14 @@ body {
 .contact h1 {
   color: var(--second-color);
 }
+
+.portfolio,
+.contact {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .star-dark i {
   color: var(--second-color);
 }
